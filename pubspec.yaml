@@ -1,0 +1,20 @@
+name: tradutor_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  image_picker: ^0.6.7+7
+  firebase_core: ^0.5.0
+  firebase_ml_vision: ^0.9.6+2
+  translator: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
